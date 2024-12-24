@@ -3,7 +3,7 @@
 
 Name: firmware-snd-hda-intel
 Version: 0.1
-Release: alt1
+Release: alt2
 
 Summary: Quirk configuration for snd_hda_intel module
 
@@ -46,5 +46,8 @@ popd
 %_firmwarepath/%name.fw
 
 %changelog
+* Tue Dec 24 2024 Vasiliy Kovalev <kovalev@altlinux.org> 0.1-alt2
+- Add a license file.
+
 * Fri Dec 06 2024 Vasiliy Kovalev <kovalev@altlinux.org> 0.1-alt1
 - Init.
