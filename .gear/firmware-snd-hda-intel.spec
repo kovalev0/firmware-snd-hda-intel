@@ -7,7 +7,7 @@ Release: alt1
 
 Summary: Quirk configuration for snd_hda_intel module
 
-License: GPLv2+
+License: GPLv3+
 Group: System/Configuration/Hardware
 BuildArch: noarch
 
@@ -40,7 +40,7 @@ pushd %_datadir/%name/
 popd
 
 %files
-%doc README.md
+%doc README.md LICENSE
 %_datadir/%name/*
 %_sysconfdir/modprobe.d/%name.conf
 %_firmwarepath/%name.fw
